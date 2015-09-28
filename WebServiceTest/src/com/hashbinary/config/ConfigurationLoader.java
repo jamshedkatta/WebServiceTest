@@ -1,4 +1,4 @@
-package com.aurionpro.config;
+package com.hashbinary.config;
 
 import java.io.InputStream;
 import java.util.HashMap;
