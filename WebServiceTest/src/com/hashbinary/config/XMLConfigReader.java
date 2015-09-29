@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Callable;
@@ -19,7 +18,7 @@ public class XMLConfigReader {
 	public static void main(String[] args) {
 		if (args.length < 1) {
 			//XML_PATH = "config/Webservice.xml";
-			XML_PATH = "config/TypicodeService.xml";
+			XML_PATH = "./TypicodeService.xml";
 		} else {
 			XML_PATH = args[0].trim();
 		}
